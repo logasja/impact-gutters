@@ -23,12 +23,13 @@
                 alt="Impact Gutters" />
             </div>
           </div>
-          <div class="hidden sm:ml-6 sm:block w-full justify-end">
-            <div class="flex space-x-4">
+          <!-- Full-sized screen -->
+          <div class="hidden sm:ml-6 sm:block w-full">
+            <div class="flex space-x-4 justify-end">
               <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[
                 item.current
-                  ? 'bg-blue-800 text-neutral-300'
-                  : 'bg-blue-600 text-neutral-100 hover:bg-gray-700 hover:text-white',
+                  ? 'bg-gray-600 text-neutral-100'
+                  : 'bg-blue-600 text-neutral-100 hover:bg-gray-600 hover:text-neutral-100',
                 'rounded-xl px-3 py-2 text-sm font-medium',
               ]" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
             </div>
@@ -36,9 +37,9 @@
         </div>
       </div>
     </div>
-
+    <!-- Mobile menu -->
     <DisclosurePanel class="sm:hidden">
-      <div class="space-y-1 px-2 pb-3 pt-2 justify-end">
+      <div class="space-y-1 px-2 pb-3 pt-2">
         <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href" :class="[
           item.current
             ? 'bg-gray-900 text-white'
@@ -59,9 +60,8 @@ import {
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
+  { name: 'About', href: '#', current: false },
   { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Contact', href: '#', current: false },
 ];
 </script>

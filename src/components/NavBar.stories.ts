@@ -3,7 +3,7 @@
 // Replace vue3 with vue if you are using Storybook for Vue 2
 import type { Meta, StoryObj } from '@storybook/vue3';
 
-import NavBar from 'Navbar.vue';
+import NavBar from './NavBar.vue';
 
 const meta: Meta<typeof NavBar> = {
   component: NavBar,
