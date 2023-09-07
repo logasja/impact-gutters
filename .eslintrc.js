@@ -4,11 +4,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: [
-    'airbnb-base',
-    'plugin:vue/vue3-recommended',
-    'plugin:tailwindcss/recommended',
-  ],
+  extends: ['airbnb-base', 'plugin:vue/vue3-recommended', 'plugin:tailwindcss/recommended', 'plugin:storybook/recommended'],
   parserOptions: {
     ecmaVersion: 2021,
   },
