@@ -1,17 +1,17 @@
 <template>
-    <section class="md:w-full h-96">
-        <div class="w-full h-3/4">
-            <img class="w-full h-full drop-shadow-md rounded-lg object-cover" src="https://images.unsplash.com/photo-1518736346281-76873166a64a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
-        </div>
-        <div class="w-1/2 h-1/4 align-middle flex">
-            <h1 class="justify-center align-middle capitalize font-semibold text-3xl content-center text-blue-600">impact gutters</h1>
-        </div>
-        <div>
-
+    <section class="h-72 sm:w-full sm:h-96">
+        <div class="relative h-full bg-neutral-50">
+            <img class="w-full h-full lg:drop-shadow-md lg:rounded-lg object-cover opacity-30 sm:opacity-100" :src="heroimg"/>
+            <div class="absolute h-12 m-auto top-0 bottom-0 left-0 right-0 sm:invisible grid place-items-center">
+                <h1 class="">{{ title }}</h1>
+            </div>
         </div>
     </section>
 </template>
 
 <script lang="ts" setup>
-
+    const props = defineProps<{
+        title: string,
+        heroimg: string,
+    }>()
 </script>

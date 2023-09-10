@@ -50,7 +50,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        rbno31: ['RBNo3\\.1', 'serif'],
       },
     },
   },

@@ -1,5 +1,7 @@
 /** @type { import('@storybook/vue3').Preview } */
-import 'tailwindcss/tailwind.css';
+import '@/assets/styles/fonts.css';
+import '@/assets/styles/main.css';
+import '@/assets/styles/tailwind.css';
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },

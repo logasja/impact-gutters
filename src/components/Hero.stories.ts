@@ -18,8 +18,8 @@ type Story = StoryObj<typeof Hero>;
  * to learn how to use render functions.
  */
 export const Primary: Story = {
-  render: () => ({
-    components: { Hero },
-    template: '<Hero />',
-  }),
+  args: {
+    title: 'impact gutters',
+    heroimg: 'https://images.unsplash.com/photo-1518736346281-76873166a64a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+  },
 };

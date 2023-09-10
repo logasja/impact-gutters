@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    h1 {
+        @apply font-rbno31;
+        @apply font-bold;
+        @apply sm:text-4xl;
+        @apply text-2xl;
+        @apply text-blue-600;
+        @apply capitalize;
+    }
+}
