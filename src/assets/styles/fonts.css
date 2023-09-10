@@ -13,3 +13,221 @@
   src: url("../fonts/Inter-italic.var.woff2") format("woff2");
   font-display: swap;
 }
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1";
+  font-style: normal;
+  src: url("../fonts/RBNo31-Bold.eot");
+  src: local("RBNo3.1 Bold"), local("RBNo3.1-Bold"),
+    url("../fonts/RBNo31-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-Bold.woff2") format("woff2"),
+    url("../fonts/RBNo31-Bold.woff") format("woff"),
+    url("../fonts/RBNo31-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 200;
+  font-family: "RBNo3.1";
+  font-style: normal;
+  src: url("../fonts/RBNo31-ExtraLight.eot");
+  src: local("RBNo3.1 ExtraLight"), local("RBNo3.1-ExtraLight"),
+    url("../fonts/RBNo31-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-ExtraLight.woff2") format("woff2"),
+    url("../fonts/RBNo31-ExtraLight.woff") format("woff"),
+    url("../fonts/RBNo31-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1";
+  font-style: italic;
+  src: url("../fonts/RBNo31-BlackItalic.eot");
+  src: local("RBNo3.1 Black Italic"), local("RBNo3.1-BlackItalic"),
+    url("../fonts/RBNo31-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-BlackItalic.woff2") format("woff2"),
+    url("../fonts/RBNo31-BlackItalic.woff") format("woff"),
+    url("../fonts/RBNo31-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1";
+  font-style: italic;
+  src: url("../fonts/RBNo31-MediumItalic.eot");
+  src: local("RBNo3.1 Medium Italic"), local("RBNo3.1-MediumItalic"),
+    url("../fonts/RBNo31-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-MediumItalic.woff2") format("woff2"),
+    url("../fonts/RBNo31-MediumItalic.woff") format("woff"),
+    url("../fonts/RBNo31-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 200;
+  font-family: "RBNo3.1";
+  font-style: italic;
+  src: url("../fonts/RBNo31-ExtraLightItalic.eot");
+  src: local("RBNo3.1 ExtraLight Italic"), local("RBNo3.1-ExtraLightItalic"),
+    url("../fonts/RBNo31-ExtraLightItalic.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/RBNo31-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/RBNo31-ExtraLightItalic.woff") format("woff"),
+    url("../fonts/RBNo31-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 100;
+  font-family: "RBNo3.1";
+  font-style: italic;
+  src: url("../fonts/RBNo31-ThinItalic.eot");
+  src: local("RBNo3.1 Thin Italic"), local("RBNo3.1-ThinItalic"),
+    url("../fonts/RBNo31-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-ThinItalic.woff2") format("woff2"),
+    url("../fonts/RBNo31-ThinItalic.woff") format("woff"),
+    url("../fonts/RBNo31-ThinItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "RBNo3.1";
+  font-style: normal;
+  src: url("../fonts/RBNo31-Light.eot");
+  src: local("RBNo3.1 Light"), local("RBNo3.1-Light"),
+    url("../fonts/RBNo31-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-Light.woff2") format("woff2"),
+    url("../fonts/RBNo31-Light.woff") format("woff"),
+    url("../fonts/RBNo31-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1";
+  font-style: normal;
+  src: url("../fonts/RBNo31-Black.eot");
+  src: local("RBNo3.1 Black"), local("RBNo3.1-Black"),
+    url("../fonts/RBNo31-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-Black.woff2") format("woff2"),
+    url("../fonts/RBNo31-Black.woff") format("woff"),
+    url("../fonts/RBNo31-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 100;
+  font-family: "RBNo3.1";
+  font-style: normal;
+  src: url("../fonts/RBNo31-Thin.eot");
+  src: local("RBNo3.1 Thin"), local("RBNo3.1-Thin"),
+    url("../fonts/RBNo31-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-Thin.woff2") format("woff2"),
+    url("../fonts/RBNo31-Thin.woff") format("woff"),
+    url("../fonts/RBNo31-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1 Ultra";
+  font-style: italic;
+  src: url("../fonts/RBNo31-UltraItalic.eot");
+  src: local("RBNo3.1 Ultra Italic"), local("RBNo3.1-UltraItalic"),
+    url("../fonts/RBNo31-UltraItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-UltraItalic.woff2") format("woff2"),
+    url("../fonts/RBNo31-UltraItalic.woff") format("woff"),
+    url("../fonts/RBNo31-UltraItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1 Book";
+  font-style: normal;
+  src: url("../fonts/RBNo31-Book.eot");
+  src: local("RBNo3.1 Book"), local("RBNo3.1-Book"),
+    url("../fonts/RBNo31-Book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-Book.woff2") format("woff2"),
+    url("../fonts/RBNo31-Book.woff") format("woff"),
+    url("../fonts/RBNo31-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1";
+  font-style: normal;
+  src: url("../fonts/RBNo31-Medium.eot");
+  src: local("RBNo3.1 Medium"), local("RBNo3.1-Medium"),
+    url("../fonts/RBNo31-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-Medium.woff2") format("woff2"),
+    url("../fonts/RBNo31-Medium.woff") format("woff"),
+    url("../fonts/RBNo31-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1 Book";
+  font-style: italic;
+  src: url("../fonts/RBNo31-BookItalic.eot");
+  src: local("RBNo3.1 Book Italic"), local("RBNo3.1-BookItalic"),
+    url("../fonts/RBNo31-BookItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-BookItalic.woff2") format("woff2"),
+    url("../fonts/RBNo31-BookItalic.woff") format("woff"),
+    url("../fonts/RBNo31-BookItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1";
+  font-style: normal;
+  src: url("../fonts/RBNo31-Extrabold.eot");
+  src: local("RBNo3.1 Extrabold"), local("RBNo3.1-Extrabold"),
+    url("../fonts/RBNo31-Extrabold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-Extrabold.woff2") format("woff2"),
+    url("../fonts/RBNo31-Extrabold.woff") format("woff"),
+    url("../fonts/RBNo31-Extrabold.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "RBNo3.1";
+  font-style: italic;
+  src: url("../fonts/RBNo31-LightItalic.eot");
+  src: local("RBNo3.1 Light Italic"), local("RBNo3.1-LightItalic"),
+    url("../fonts/RBNo31-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-LightItalic.woff2") format("woff2"),
+    url("../fonts/RBNo31-LightItalic.woff") format("woff"),
+    url("../fonts/RBNo31-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1";
+  font-style: italic;
+  src: url("../fonts/RBNo31-BoldItalic.eot");
+  src: local("RBNo3.1 Bold Italic"), local("RBNo3.1-BoldItalic"),
+    url("../fonts/RBNo31-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-BoldItalic.woff2") format("woff2"),
+    url("../fonts/RBNo31-BoldItalic.woff") format("woff"),
+    url("../fonts/RBNo31-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1";
+  font-style: italic;
+  src: url("../fonts/RBNo31-ExtraboldItalic.eot");
+  src: local("RBNo3.1 Extrabold Italic"), local("RBNo3.1-ExtraboldItalic"),
+    url("../fonts/RBNo31-ExtraboldItalic.eot?#iefix")
+    format("embedded-opentype"),
+    url("../fonts/RBNo31-ExtraboldItalic.woff2") format("woff2"),
+    url("../fonts/RBNo31-ExtraboldItalic.woff") format("woff"),
+    url("../fonts/RBNo31-ExtraboldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RBNo3.1 Ultra";
+  font-style: normal;
+  src: url("../fonts/RBNo31-Ultra.eot");
+  src: local("RBNo3.1 Ultra"), local("RBNo3.1-Ultra"),
+    url("../fonts/RBNo31-Ultra.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RBNo31-Ultra.woff2") format("woff2"),
+    url("../fonts/RBNo31-Ultra.woff") format("woff"),
+    url("../fonts/RBNo31-Ultra.ttf") format("truetype");
+}
