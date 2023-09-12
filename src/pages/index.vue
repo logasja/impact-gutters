@@ -11,7 +11,12 @@ onMounted(() => {
 
 <template>
   <NavBar />
-  <Hero title="impact gutters" heroimg="https://images.unsplash.com/photo-1518736346281-76873166a64a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+  <Hero 
+    title="impact gutters" 
+    heroimg="https://images.unsplash.com/photo-1518736346281-76873166a64a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    tagline="Serving the Atlanta Metro Area"
+    description="Are you tired of worrying about clogged gutters, water damage to your home, or the hassle of constant maintenance? Look no further! GutterGuard Pro is here to revolutionize your home's protection and maintenance with our cutting-edge gutter solutions."
+  />
 </template>
 
 <style>

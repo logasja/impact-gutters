@@ -12,4 +12,13 @@
         @apply text-blue-600;
         @apply capitalize;
     }
+
+    h2 {
+        @apply font-rbno31;
+        @apply font-semibold;
+        @apply sm:text-2xl;
+        @apply text-lg;
+        @apply text-gray-600;
+        @apply capitalize;
+    }
 }
