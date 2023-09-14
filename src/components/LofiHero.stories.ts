@@ -19,6 +19,8 @@ type Story = StoryObj<typeof LofiHero>;
  */
 export const Primary: Story = {
   args: {
-    
+    name: 'Jacob Logas',
+    description: 'A person who is very stupid, probably the dumbest',
+    heroimg: 'https://images.unsplash.com/photo-1693998591024-2d3c35ada345?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
 };
