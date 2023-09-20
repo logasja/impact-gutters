@@ -9,7 +9,7 @@ export default ({ mode }) => {
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
 
   return defineConfig({
-    base: process.env.NODE_ENV.includes('dev') ? process.env.VITE_BASE_PUBLIC_PATH : '/impact_gutters/',
+    base: process.env.NODE_ENV.includes('dev') ? process.env.VITE_BASE_PUBLIC_PATH : '/impact-gutters/',
     plugins: [
       // eslint({ 
       //   cache: false,
