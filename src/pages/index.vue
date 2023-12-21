@@ -1,11 +1,21 @@
 <script setup>
-import { onMounted } from 'vue';
+import { onMounted, ref } from 'vue';
 import { initTheme } from '@/composables/theme.js';
 import NavBar from '@/components/NavBar.vue';
 import Hero from '@/components/Hero.vue';
 import LofiHero from '@/components/LofiHero.vue';
 
-onMounted(() => {
+const owner = ref(0)
+const business = ref(0)
+
+onMounted(async () => {
+  const response = await fetch("/data.json");
+  const file = await response.json();
+  owner.value = file.about.owner;
+  owner.value.description = owner.value.description.join('\n');
+
+  business.value = file.about.business;
+  business.value.description = business.value.description.join('\n');
   initTheme();
 });
 </script>
@@ -13,15 +23,12 @@ onMounted(() => {
 <template>
   <NavBar />
   <Hero 
-    title="impact gutters" 
-    heroimg="https://images.unsplash.com/photo-1518736346281-76873166a64a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-    tagline="Serving the Atlanta Metro Area"
-    description="Are you tired of worrying about clogged gutters, water damage to your home, or the hassle of constant maintenance? Look no further! GutterGuard Pro is here to revolutionize your home's protection and maintenance with our cutting-edge gutter solutions."
+    :v-show=business
+    v-bind=business
   />
   <LofiHero 
-    name="warren"
-    heroimg="https://images.unsplash.com/photo-1693998591024-2d3c35ada345?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    description="This is where you put an about me as the owner of the company."
+    :v-show=owner
+    v-bind=owner
   />
 </template>
 
